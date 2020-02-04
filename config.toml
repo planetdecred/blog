@@ -1,7 +1,7 @@
 baseurl = "https://blog.planetdecred.org/"
 languageCode = "en-us"
 title = "Planet Decred Blog"
-theme = "decred-blog"
+theme = "planetdecred-blog"
 
 paginate = 5
 

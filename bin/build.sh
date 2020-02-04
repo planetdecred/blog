@@ -3,17 +3,17 @@
 
 echo ""
 echo "================================="
-echo "  Building dcrblog docker image  "
+echo "  Building planetdecred blog docker image  "
 echo "================================="
 echo ""
 
-docker build -t decred/dcrblog .
+docker build -t planetdecred/blog .
 
 echo ""
 echo "==================="
 echo "  Build complete"
 echo "==================="
 echo ""
-echo "You can now run dcrblog with the following command:"
-echo "    docker run -d --rm -p <local port>:80 decred/dcrblog:latest"
+echo "You can now run planetdecredblog with the following command:"
+echo "    docker run -d --rm -p <local port>:80 planetdecred/blog:latest"
 echo ""

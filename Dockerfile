@@ -5,7 +5,6 @@ ENV HUGO_VERSION 0.58.3
 
 LABEL description="gohugo build"
 LABEL version="1.0"
-LABEL maintainer="jholdstock@decred.org"
 
 WORKDIR /tmp
 
@@ -21,10 +20,8 @@ RUN hugo
 # Serve image (stable nginx version)
 FROM nginx:1.16
 
-LABEL description="dcrblog server"
+LABEL description="planetdecredblog server"
 LABEL version="1.0"
-LABEL maintainer="jholdstock@decred.org"
-
 COPY conf/nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY --from=0 /root/public/ /usr/share/nginx/html

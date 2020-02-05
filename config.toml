@@ -1,4 +1,4 @@
-baseurl = "https://blog.planetdecred.org/"
+baseurl = "https://quizzical-lamport-148497.netlify.com/"
 languageCode = "en-us"
 title = "Planet Decred Blog"
 theme = "planetdecred-blog"

@@ -35,13 +35,12 @@
               <li class="{{ if .IsHome }}nav-current{{ end }}">
                 <a class="nav-link {{ if .IsHome }}nav-current{{ end }}" href="/">Home</a>
               </li>
-              {{- $currentPage := . -}}
-              {{ range .Site.Menus.navbar }}
-              {{ $menuURL := .URL | absLangURL }}
               <li>
-                <a class="nav-link{{ if or ($currentPage.IsMenuCurrent "navbar" .) ($currentPage.HasMenuCurrent "navbar" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                <a class="nav-link" href="https://twitter.com/planetdecred" target="_blank">Twitter</a>
               </li>
-              {{ end }}
+              <li>
+                <a class="nav-link" href="https://github.com/planetdecred" target="_blank">Github</a>
+              </li>
             </ul>
           </div>
         </div>

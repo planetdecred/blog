@@ -1,0 +1,33 @@
+baseurl = "https://blog.planetdecred.org/"
+languageCode = "en-us"
+title = "Planet Decred Blog"
+theme = "planetdecred-blog"
+
+paginate = 5
+
+# disablePathToLower is necessary to maintain backwards compatability with old blog links
+disablePathToLower = true
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+
+# Theme variables
+[params]
+  # date_format describes how dates will be formatted throughout the blog.
+  # Specify with Go's time formatting syntax.
+  date_format = "January 2, 2006"
+
+  # Display post summaries instead of content in list templates (default: true)
+  #truncate = true
+
+  [params.sidebar]
+    num_recent_posts = 5
+
+  [params.social]
+    twitter = "planetdecred"
+    github = "planetdecred"

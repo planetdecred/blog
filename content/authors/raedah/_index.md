@@ -1,8 +1,8 @@
 ---
 id:       raedah 
 name:     "raedah"
-twitter:  
+twitter:  "raedagroup"
 image:    /images/authors/raedah.png
-location: ""
-bio:      "Planet Decred Developer"
+location: "West Coast, USA"
+bio:      "Planet Decred Founder"
 ---

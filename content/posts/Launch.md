@@ -5,7 +5,7 @@ draft: false
 authors:
 -  raedah
 tags:   [demo, planetdecred]
-banner_image: "/images/posts/bg-golang.png"
+banner_image: "/images/posts/launch.png"
 
 
 ---

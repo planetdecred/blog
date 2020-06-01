@@ -1,4 +1,4 @@
-baseurl = "https://blog.planetdecred.org/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Planet Decred Blog"
 theme = "planetdecred-blog"
